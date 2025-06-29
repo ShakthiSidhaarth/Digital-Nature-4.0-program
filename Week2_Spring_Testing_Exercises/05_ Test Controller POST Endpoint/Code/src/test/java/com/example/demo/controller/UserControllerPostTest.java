@@ -25,14 +25,14 @@ public class UserControllerPostTest {
 
     @Test
     void testCreateUser() throws Exception {
-        User user = new User(1L, "Tharun");
+        User user = new User(1L, "Shakthi");
 
         when(userService.saveUser(any(User.class))).thenReturn(user);
 
         String userJson = """
             {
                 "id": 1,
-                "name": "Tharun"
+                "name": "Shakthi"
             }
         """;
 
