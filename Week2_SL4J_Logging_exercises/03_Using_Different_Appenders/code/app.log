@@ -1,0 +1,4 @@
+12:57:22.595 [main] DEBUG AppenderExample - Debug message - shown in both console and file
+12:57:22.600 [main] INFO  AppenderExample - Info message - shown in both console and file
+12:57:22.602 [main] WARN  AppenderExample - Warning message - shown in both console and file
+12:57:22.602 [main] ERROR AppenderExample - Error message - shown in both console and file

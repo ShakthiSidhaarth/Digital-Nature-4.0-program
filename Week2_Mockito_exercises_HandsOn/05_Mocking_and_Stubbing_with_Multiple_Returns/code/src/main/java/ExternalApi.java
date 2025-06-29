@@ -1,0 +1,3 @@
+interface ExternalApi {
+    String getStatus();
+}
